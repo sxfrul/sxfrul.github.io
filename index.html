@@ -38,8 +38,9 @@
     </div>
   </div>
   <button class="cute-button" id="showHouseButton">suaza click here pls</button>
+  <p id="greeting" style="display:none; opacity: 0; transition: opacity 0.5s ease;">here's a house for u<br>dont be stressed !!<br><br></p>
 
-  <div id="hiddenContent">
+  <div id="hiddenContent" style="margin-top: 100px; opacity: 0; transition: opacity 0.5s ease;">
     <div class="house-scaler">
       <div class="wrap">
         <div class="house__holder">
@@ -102,24 +103,33 @@
       </div>
     </div>
   </div>
-  <div id="textContainer" style="display:none;">Hello World</div>
 
   <script>
     const showHouseButton = document.getElementById('showHouseButton');
     const hiddenContent = document.getElementById('hiddenContent');
     const teddyBear = document.querySelector('.teddy');
-    const textContainer = document.getElementById('textContainer');
+    const greeting = document.getElementById('greeting');
+
 
     showHouseButton.addEventListener('click', function() {
       const computedStyle = window.getComputedStyle(hiddenContent);
       if (computedStyle.display === 'none') {
         hiddenContent.style.display = 'block';
         teddyBear.style.display = 'none';
-        textContainer.style.display = 'block';
+        showHouseButton.style.display = 'none';
+        greeting.style.display = 'block';
+        // Add fade-in effect
+        setTimeout(() => {
+          hiddenContent.style.opacity = '1';
+          greeting.style.opacity = '1';
+        }, 10); // Small delay to ensure display:block is applied
       } else {
         hiddenContent.style.display = 'none';
         teddyBear.style.display = 'block';
-        textContainer.style.display = 'none';
+        showHouseButton.style.display = 'block';
+        greeting.style.display = 'none';
+        hiddenContent.style.opacity = '0';
+        greeting.style.opacity = '0';
       }
     });
   </script>
