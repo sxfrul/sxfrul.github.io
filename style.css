@@ -251,6 +251,11 @@
     animation: slideInUp s ease-out forwards;
     transform: translateY(100%);
   }
+
+  .house-scaler {
+    transform: scale(0.6); /* Example: Scale down to 60% */
+    transform-origin: top center; /* Optional */
+  }
   
   @keyframes slideInUp {
     from {
