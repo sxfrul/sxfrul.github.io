@@ -1,7 +1,7 @@
 :root {
-    --light-orange: #f4a574;
-    --brown: #b85e37;
-    --orange: #e66d44;
+    --light-orange: #7ca5c9;
+    --brown: #376fb8;
+    --orange: #44b5e6;
     --white: #fefefe;
     --shadows: #efd7cd;
   }
@@ -248,7 +248,7 @@
   #hiddenContent {
     display: none;
     margin-top: 30px;
-    animation: slideInUp 1s ease-out forwards;
+    animation: slideInUp s ease-out forwards;
     transform: translateY(100%);
   }
   
@@ -512,7 +512,7 @@
     transform: translateX(-50%);
     width: calc(100% + 40px);
     height: 20px;
-    background-image: linear-gradient(to top, #e36135, #e7724b);
+    background-image: linear-gradient(to top, #3563e3, #4ba1e7);
   }
   
   .house__window {

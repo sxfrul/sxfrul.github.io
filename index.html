@@ -5,23 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teddy Bear with Clickable House</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    #hiddenContent {
-      display: none;
-      margin-top: 30px;
-      animation: slideInUp 1s ease-out forwards;
-      transform: translateY(100%);
-    }
-
-    @keyframes slideInUp {
-      from {
-        transform: translateY(100%);
-      }
-      to {
-        transform: translateY(0);
-      }
-    }
-  </style>
 </head>
 <body>
   <div class="teddy">
@@ -124,7 +107,7 @@
 
     showHouseButton.addEventListener('click', function() {
       if (hiddenContent.style.display === 'none') {
-        hiddenContent.style.display = 'block';
+        hiddenContent.style.display = 'block'; // Or 'flex', 'grid', etc., depending on your layout
       } else {
         hiddenContent.style.display = 'none';
       }
