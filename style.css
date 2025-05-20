@@ -23,6 +23,7 @@
         min-height: 100vh;
         padding-top: 50px;
         overflow: hidden;
+        -webkit-overflow-scrolling: none;
       }
       
       .cute-button {
