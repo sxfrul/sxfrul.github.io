@@ -12,19 +12,19 @@ position: absolute;
 border-radius: 50%;
 }
 .right-ear, .left-ear {
-background: rgb(95,60,30);
-box-shadow: 0 0 0 20em rgb(190,120,60) inset;
+background: rgb(30, 78, 95);
+box-shadow: 0 0 0 20em rgb(50, 118, 170) inset;
 width: 80em;
 height: 80em;
 }
 .right-ear {
-left: 30em;
+left: 10em;
 }
 .left-ear {
-right: 30em;
+right: 10em;
 }
 .head {
-background: rgb(190,120,60);
+background: rgb(50, 118, 170);
 width: 160em;
 height: 160em;
 right: 0;
@@ -48,7 +48,7 @@ left: 45em;
 right: 45em;
 }
 .mouth-area {
-background: rgb(230,160,90);
+background: rgb(90, 193, 230);
 right: 0;
 bottom: 5em;
 left: 0;
@@ -77,16 +77,16 @@ width: 30em;
 height: 30em;
 }
 .right-cheek {
-box-shadow: -2em -2em 0 0 rgb(115,80,45) inset;
+box-shadow: -2em -2em 0 0 rgb(45, 97, 115) inset;
 left: 20em;
 }
 .left-cheek {
-box-shadow: 2em -2em 0 0 rgb(115,80,45) inset;
+box-shadow: 2em -2em 0 0 rgb(45, 69, 115) inset;
 right: 20em;
 }
 .body {
-background: rgb(230,160,90);
-box-shadow: 0 0 0 24em rgb(190,120,60) inset;
+background: rgb(90, 202, 230);
+box-shadow: 0 0 0 24em rgb(50, 118, 170) inset;
 margin: auto;
 right: 0;
 bottom: 22em;
@@ -95,7 +95,7 @@ width: 170em;
 height: 190em;
 }
 .right-arm, .left-arm {
-background: rgb(170,100,50);
+background: rgb(50, 118, 170);
 top: 130em;
 width: 70em;
 height: 60em;
@@ -106,7 +106,7 @@ left: 0;
 }
 .right-arm .arm-inner {
 border-radius: 50em 0 0 0 / 80em 0 0 0;
-box-shadow: 22em 22em 0 0 rgb(170,100,50) inset;
+box-shadow: 22em 22em 0 0 rgb(50, 118, 170) inset;
 left: 55em;
 }
 .left-arm, .left-arm .paw {
@@ -117,7 +117,7 @@ border-radius: 0 70em 0 0 / 0 60em 0 0;
 }
 .left-arm .arm-inner {
 border-radius: 0 50em 0 0 / 0 80em 0 0;
-box-shadow: -22em 22em 0 0 rgb(170,100,50) inset;
+box-shadow: -22em 22em 0 0 rgb(50, 118, 170) inset;
 right: 55em;
 }
 .arm-inner {
@@ -126,13 +126,13 @@ height: 80em;
 bottom: 0;
 }
 .paw {
-background: rgb(190,120,60);
+background: rgb(90, 190, 230);
 width: 80em;
 height: 60em;
 top: 30em;
 }
 .right-leg, .left-leg {
-background: rgb(170,100,50);
+background: rgb(50, 118, 170);
 border-radius: 45em 45em 0 0 / 70em 70em 0 0;
 bottom: 40em;
 width: 90em;
@@ -145,8 +145,8 @@ left: 10em;
 right: 10em;
 }
 .foot  {
-background: rgb(230,160,90);
-box-shadow: 0 5em 0 10em rgb(190,120,60) inset;
+background: rgb(90, 190, 230);
+box-shadow: 0 5em 0 10em rgb(60, 134, 190) inset;
 width: 100%;
 height: 80em;
 top: 30em;
