@@ -4,6 +4,7 @@
         --brown: #376fb8;
         --orange: #44b5e6;
         --white: #fefefe;
+        --sun: #e1c64c;
         --shadows: #efd7cd;
       }
       
@@ -710,7 +711,7 @@
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        background-color: var(--white);
+        background-color: var(--sun);
         position: absolute;
         top: -85vh;
         right: 50vh;
