@@ -7,8 +7,19 @@
   <link rel="stylesheet" href="style.css">
   <style>
     #hiddenContent {
-      display: none; /* Initially hide the content */
+      display: none;
       margin-top: 30px;
+      animation: slideInUp 1s ease-out forwards;
+      transform: translateY(100%);
+    }
+
+    @keyframes slideInUp {
+      from {
+        transform: translateY(100%);
+      }
+      to {
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
@@ -113,7 +124,7 @@
 
     showHouseButton.addEventListener('click', function() {
       if (hiddenContent.style.display === 'none') {
-        hiddenContent.style.display = 'block'; // Or 'flex', 'grid', etc., depending on your layout
+        hiddenContent.style.display = 'block';
       } else {
         hiddenContent.style.display = 'none';
       }

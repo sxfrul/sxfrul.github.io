@@ -23,27 +23,27 @@
   }
   
   .cute-button {
-    background-color: #35c1fd; /* A cheerful blue */
-    color: #fff; /* White text */
+    background-color: #35c1fd;
+    color: #fff;
     border: none;
     padding: 15px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1.2em;
-    border-radius: 30px; /* Rounded corners for cuteness */
+    border-radius: 30px;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
     margin-bottom: 30px;
   }
   
   .cute-button:hover {
-    background-color: #1e88e5; /* Darker blue on hover */
+    background-color: #1e88e5;
   }
   
   .teddy {
-    font-size: calc(50vmin / 260);
+    font-size: calc(20vmin / 260);
     position: relative;
     width: 260em;
     height: 330em;
@@ -243,6 +243,22 @@
     width: 100%;
     height: 80em;
     top: 30em;
+  }
+  
+  #hiddenContent {
+    display: none;
+    margin-top: 30px;
+    animation: slideInUp 1s ease-out forwards;
+    transform: translateY(100%);
+  }
+  
+  @keyframes slideInUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
   }
   
   .wrap {
