@@ -102,17 +102,24 @@
       </div>
     </div>
   </div>
+  <div id="textContainer" style="display:none;">Hello World</div>
 
   <script>
     const showHouseButton = document.getElementById('showHouseButton');
     const hiddenContent = document.getElementById('hiddenContent');
+    const teddyBear = document.querySelector('.teddy');
+    const textContainer = document.getElementById('textContainer');
 
     showHouseButton.addEventListener('click', function() {
       const computedStyle = window.getComputedStyle(hiddenContent);
       if (computedStyle.display === 'none') {
-        hiddenContent.style.display = 'block'; // Or 'flex', 'grid', etc., depending on your layout
+        hiddenContent.style.display = 'block';
+        teddyBear.style.display = 'none';
+        textContainer.style.display = 'block';
       } else {
         hiddenContent.style.display = 'none';
+        teddyBear.style.display = 'block';
+        textContainer.style.display = 'none';
       }
     });
   </script>
