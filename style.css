@@ -1127,7 +1127,7 @@
     width: 170px;
     height: 291px;
     background: #646464;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -10%);
     top: 40%;
     left: 25%;
 }
