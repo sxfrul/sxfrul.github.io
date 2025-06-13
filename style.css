@@ -902,7 +902,7 @@
     position: relative;
     width: 300vw;
     height: 100vh;
-    background: #444;
+    background: #444444;
 }
 .container2{
     position: absolute;
@@ -920,7 +920,7 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    background: #bbb;
+    background: #328cb5;
     /* top: 35%;
     left: 65%; */
     border-bottom-left-radius: 30%;
@@ -935,7 +935,7 @@
     width: 40px;
     height: 40px;
     background: transparent;
-    border:10px solid #bbb;
+    border:10px solid #328cb5;
     border-radius: 50%;
     
     top: 18%;
@@ -957,7 +957,7 @@
     position: absolute;
     width: 400px;
     height: 12px;
-    background: #bbb;
+    background: #954e30;
     top: 50%;
     left: 10%;
    
@@ -970,7 +970,7 @@
     position: absolute;
     width: 120px;
     height: 50px;
-    background: #bbb;
+    background: #bb836a;
     z-index: 1;
     transform: translate(20%,30%)
     
@@ -981,7 +981,7 @@
     position: absolute;
     width: 120px;
     height: 120px;
-    background: #bbb;
+    background: #bb836a;
     z-index: 1;
     transform: translate(20%,57%)
 
@@ -992,7 +992,7 @@
     position: absolute;
     width: 3rem;
     height: 0.7rem;
-    background: #666;
+    background: #470808;
     z-index: 2;
     left: 15.5%;
 }
@@ -1005,9 +1005,9 @@
 }
 .tableleg{
     position: absolute;
-    width: 50px;
-    height: 15px;
-    background:#777;
+    width: 40px;
+    height: 47px;
+    background:#bb836a;
     display: block;
     right: 1rem;
     top: 1rem;
@@ -1026,9 +1026,6 @@
 }
 #table4{
     top: 9rem;
-}
-#table5{
-    top: 11rem;
 }
 
 .computer{
@@ -1089,7 +1086,11 @@
     position: absolute;
     width: 160px;
     height: 90px;
-    background: #777;
+    background: #873030;
+    background-image: url('https://wallpaperaccess.com/full/19373793.png');
+    background-size: cover;         /* Optional: make it cover the whole div */
+    background-position: center;    /* Optional: center the image */
+    background-repeat: no-repeat;   /* Optional: prevent repeating */
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
@@ -1126,7 +1127,7 @@
     position: relative;
     width: 170px;
     height: 291px;
-    background: #646464;
+    background: #954e30;
     transform: translate(-50%, -10%);
     top: 40%;
     left: 25%;
@@ -1136,7 +1137,7 @@
     position: absolute;
     width: 140px;
     height: 80px;
-    background: #444;
+    background: #470808;
     left: 15px;
     top: 8px;
 }
@@ -1144,7 +1145,7 @@
     position: absolute;
     height: 60px;
     width: 15px;
-    background: #999;
+    background: #316d4f;
     top: 19px;
     left: 36px;
     transform-origin: top;
@@ -1154,7 +1155,7 @@
     position: absolute;
     width: 60px;
     height: 15px;
-    background: #999;
+    background: #4431b0;
     top: 65px;
     left: 75px;
 }
@@ -1163,7 +1164,7 @@
     position: absolute;
     height: 60px;
     width: 15px;
-    background: #999;
+    background: #854a75;
     top: 18px;
     left: 2px;
 
@@ -1173,7 +1174,7 @@
     position: absolute;
     height: 60px;
     width: 15px;
-    background: #999;
+    background: #8b1d1d;
     top: 18px;
     left: 19px;
 
@@ -1182,7 +1183,7 @@
     position: absolute;
     width: 140px;
     height: 80px;
-    background: #444;
+    background: #470808;
     left: 15px;
     top: 101px;
 }
@@ -1191,7 +1192,7 @@
     position: absolute;
     width: 60px;
     height: 15px;
-    background: #999;
+    background: #19215c;
     top: 65px;
     left: 3px;
 }
@@ -1200,7 +1201,7 @@
     position: absolute;
     width: 60px;
     height: 15px;
-    background: #999;
+    background: #1b5b5d;
     top: 48px;
     left: 3px;
 }
@@ -1208,7 +1209,7 @@
     position: absolute;
     width: 60px;
     height: 15px;
-    background: #999;
+    background: #386460;
     top: 31px;
     left: 3px;
 }
@@ -1216,7 +1217,7 @@
     position: absolute;
     width: 40px;
     height: 36px;
-    background: #999;
+    background: #999999;
     top: 43px;
     left: 90px;
     border-bottom-left-radius: 20%;
@@ -1257,7 +1258,7 @@
     position: absolute;
     width: 140px;
     height: 80px;
-    background: #444;
+    background: #470808;
     left: 15px;
     top: 194px;
 }
@@ -1266,7 +1267,7 @@
     position: absolute;
     width: 63px;
     height: 70px;
-    background: #999;
+    background: #bb836a;
     left: 4px;
     top: 5px;
 }
@@ -1275,7 +1276,7 @@
     position: absolute;
     width: 63px;
     height: 70px;
-    background: #999;
+    background: #bb836a;
     left: 73px;
     top: 5px;
 }
@@ -1283,7 +1284,7 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background: #444;
+    background: #470808;
     border-radius: 50%;
     top: 30px;
 }
@@ -1363,7 +1364,7 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    background:#bbb;
+    background:#ffffff;
     border-radius: 50%;
     top: 16px;
     left: 8px;
@@ -1414,52 +1415,12 @@
     box-shadow: 10px 10px rgba(248, 248, 255, 0.582);
     
 }
-.stars{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    background: ghostwhite;
 
+.dialogue{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 40px;
 }
-#star1{
-    top: 15%;
-    left: 15%;
-}
-#star2{
-    top: 18%;
-    left: 15%;
-}
-#star3{
-    top: 10%;
-    left: 15%;
-}
-#star4{
-    top: 10%;
-    left: 15%;
-}
-#star5{
-    top: 10%;
-    left: 15%;
-}
-#star6{
-    top: 10%;
-    left: 15%;
-}
-#star7{
-    top: 10%;
-    left: 15%;
-}
-#star8{
-    top: 10%;
-    left: 15%;
-}
-#star9{
-    top: 10%;
-    left: 15%;
-}
-#star10{
-    top: 10%;
-    left: 15%;
-}
+
 
 

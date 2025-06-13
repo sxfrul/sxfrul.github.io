@@ -190,6 +190,18 @@
             <span id="base"></span>
         </div> -->
         </div>
+        <div class="dialogue">
+          <p>syaza</p>
+          <p>frankly, i've thought about us alot this week</p>
+          <p>i decided that<br>i no longer want to deny these feelings</p>
+          <p>syaza,<br>i want to be the one to protect that beautiful smile of yours</p>
+          <p>i want to be the one who sees your mengada side</p>
+          <p>i want to be the one who melt away your worries and problems</p>
+          <p>i want to be the one who you depend on</p>
+          <p>my love, i'll give you the sun, the moon, the stars</p>
+          <p>so,</p>
+          <p>will you allow me to be your boyfriend?</p>
+        </div>
     </div>
   </div>
 
@@ -200,6 +212,9 @@
     const teddyBear = document.querySelector('.teddy');
     const greeting = document.getElementById('greeting');
     const houseDoor = document.querySelector('.wrap');
+    const wrapper2 = document.querySelector('.wrapper2');
+    const dialogueLines = document.querySelectorAll('.dialogue p');
+    let currentLine = 0;
 
 
     showHouseButton.addEventListener('click', function() {
@@ -240,6 +255,34 @@
           hiddenContent2.style.opacity = '1';
         }, 10);
       }, 500); // Matches transition duration
+    });
+
+  // Prepare all lines: hide and set transition
+    dialogueLines.forEach(p => {
+      p.style.opacity = '0';
+      p.style.transition = 'opacity 0.5s ease';
+      p.style.display = 'none';
+    });
+
+    wrapper2.addEventListener('click', () => {
+      if (currentLine > 0) {
+        const prev = dialogueLines[currentLine - 1];
+        prev.style.opacity = '0';
+        setTimeout(() => {
+          prev.style.display = 'none';
+        }, 500); // matches fade-out duration
+      }
+
+      if (currentLine < dialogueLines.length) {
+        const next = dialogueLines[currentLine];
+        setTimeout(() => {
+          next.style.display = 'block';
+          setTimeout(() => {
+            next.style.opacity = '1';
+          }, 10); // slight delay to trigger transition
+          currentLine++;
+        }, 500); // delay before showing next line
+      }
     });
   </script>
 </body>
