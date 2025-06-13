@@ -902,7 +902,7 @@
     position: relative;
     width: 300vw;
     height: 100vh;
-    background: #444444;
+    background: #444;
 }
 .container2{
     position: absolute;
@@ -920,7 +920,7 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    background: #328cb5;
+    background: #bbb;
     /* top: 35%;
     left: 65%; */
     border-bottom-left-radius: 30%;
@@ -935,7 +935,7 @@
     width: 40px;
     height: 40px;
     background: transparent;
-    border:10px solid #328cb5;
+    border:10px solid #bbb;
     border-radius: 50%;
     
     top: 18%;
@@ -957,7 +957,7 @@
     position: absolute;
     width: 400px;
     height: 12px;
-    background: #954e30;
+    background: #bbb;
     top: 50%;
     left: 10%;
    
@@ -970,7 +970,7 @@
     position: absolute;
     width: 120px;
     height: 50px;
-    background: #bb836a;
+    background: #bbb;
     z-index: 1;
     transform: translate(20%,30%)
     
@@ -981,7 +981,7 @@
     position: absolute;
     width: 120px;
     height: 120px;
-    background: #bb836a;
+    background: #bbb;
     z-index: 1;
     transform: translate(20%,57%)
 
@@ -992,7 +992,7 @@
     position: absolute;
     width: 3rem;
     height: 0.7rem;
-    background: #470808;
+    background: #666;
     z-index: 2;
     left: 15.5%;
 }
@@ -1005,9 +1005,9 @@
 }
 .tableleg{
     position: absolute;
-    width: 40px;
-    height: 47px;
-    background:#bb836a;
+    width: 50px;
+    height: 15px;
+    background:#777;
     display: block;
     right: 1rem;
     top: 1rem;
@@ -1026,6 +1026,9 @@
 }
 #table4{
     top: 9rem;
+}
+#table5{
+    top: 11rem;
 }
 
 .computer{
@@ -1086,11 +1089,11 @@
     position: absolute;
     width: 160px;
     height: 90px;
-    background: #873030;
+    background: #822020;
     background-image: url('https://wallpaperaccess.com/full/19373793.png');
-    background-size: cover;         /* Optional: make it cover the whole div */
-    background-position: center;    /* Optional: center the image */
-    background-repeat: no-repeat;   /* Optional: prevent repeating */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
@@ -1127,7 +1130,7 @@
     position: relative;
     width: 170px;
     height: 291px;
-    background: #954e30;
+    background: #646464;
     transform: translate(-50%, -10%);
     top: 40%;
     left: 25%;
@@ -1137,7 +1140,7 @@
     position: absolute;
     width: 140px;
     height: 80px;
-    background: #470808;
+    background: #444;
     left: 15px;
     top: 8px;
 }
@@ -1145,7 +1148,7 @@
     position: absolute;
     height: 60px;
     width: 15px;
-    background: #316d4f;
+    background: #999;
     top: 19px;
     left: 36px;
     transform-origin: top;
@@ -1155,7 +1158,7 @@
     position: absolute;
     width: 60px;
     height: 15px;
-    background: #4431b0;
+    background: #999;
     top: 65px;
     left: 75px;
 }
@@ -1164,7 +1167,7 @@
     position: absolute;
     height: 60px;
     width: 15px;
-    background: #854a75;
+    background: #999;
     top: 18px;
     left: 2px;
 
@@ -1174,7 +1177,7 @@
     position: absolute;
     height: 60px;
     width: 15px;
-    background: #8b1d1d;
+    background: #999;
     top: 18px;
     left: 19px;
 
@@ -1183,7 +1186,7 @@
     position: absolute;
     width: 140px;
     height: 80px;
-    background: #470808;
+    background: #444;
     left: 15px;
     top: 101px;
 }
@@ -1192,7 +1195,7 @@
     position: absolute;
     width: 60px;
     height: 15px;
-    background: #19215c;
+    background: #999;
     top: 65px;
     left: 3px;
 }
@@ -1201,7 +1204,7 @@
     position: absolute;
     width: 60px;
     height: 15px;
-    background: #1b5b5d;
+    background: #999;
     top: 48px;
     left: 3px;
 }
@@ -1209,7 +1212,7 @@
     position: absolute;
     width: 60px;
     height: 15px;
-    background: #386460;
+    background: #999;
     top: 31px;
     left: 3px;
 }
@@ -1258,7 +1261,7 @@
     position: absolute;
     width: 140px;
     height: 80px;
-    background: #470808;
+    background: #444444;
     left: 15px;
     top: 194px;
 }
@@ -1267,7 +1270,7 @@
     position: absolute;
     width: 63px;
     height: 70px;
-    background: #bb836a;
+    background: #999;
     left: 4px;
     top: 5px;
 }
@@ -1276,7 +1279,7 @@
     position: absolute;
     width: 63px;
     height: 70px;
-    background: #bb836a;
+    background: #999;
     left: 73px;
     top: 5px;
 }
@@ -1284,7 +1287,7 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background: #470808;
+    background: #444;
     border-radius: 50%;
     top: 30px;
 }
@@ -1364,7 +1367,7 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    background:#ffffff;
+    background:#bbb;
     border-radius: 50%;
     top: 16px;
     left: 8px;
