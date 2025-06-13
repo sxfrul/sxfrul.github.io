@@ -287,7 +287,7 @@
       }
 
       .room-scaler {
-        transform: scale(0.6);
+        transform: scale(0.4);
         transform-origin: top center;
       }
       
@@ -1075,7 +1075,7 @@
     position: absolute;
     width: 180px;
     height: 110px;
-    background: #af2424;
+    background: #bbb;
     border-radius: 5%;
     top: 20.5%;
     left: 30%;
