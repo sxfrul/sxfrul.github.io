@@ -124,6 +124,7 @@
     const hiddenContent = document.getElementById('hiddenContent');
     const teddyBear = document.querySelector('.teddy');
     const greeting = document.getElementById('greeting');
+    const houseDoor = document.querySelector('.wrap');
 
 
     showHouseButton.addEventListener('click', function() {
@@ -146,6 +147,18 @@
         hiddenContent.style.opacity = '0';
         greeting.style.opacity = '0';
       }
+    });
+
+        // Hide everything when the house door is clicked
+    houseDoor.addEventListener('click', function () {
+      hiddenContent.style.opacity = '0';
+      greeting.style.opacity = '0';
+      setTimeout(() => {
+        hiddenContent.style.display = 'none';
+        teddyBear.style.display = 'none';
+        showHouseButton.style.display = 'none';
+        greeting.style.display = 'none';
+      }, 500); // Matches transition duration
     });
   </script>
 </body>
