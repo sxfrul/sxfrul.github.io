@@ -285,6 +285,11 @@
         transform: scale(0.6);
         transform-origin: top center;
       }
+
+      .room-scaler {
+        transform: scale(0.2);
+        transform-origin: top center;
+      }
       
       .wrap {
         width: 1280px;
